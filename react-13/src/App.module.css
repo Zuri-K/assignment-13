@@ -1,0 +1,60 @@
+.divContainer{
+
+  width:25em;
+  height:10em;
+  background-color: #eeeeee79;
+  border-radius:20px;
+  border-style: solid;
+  border-color:#d8d8d8d5;
+  transition:0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:5px;
+  gap:10px;
+
+}
+
+.divContainer:hover{
+    background-color:#ebebebab;
+    box-shadow: #0000001d 1px 3px 8px;
+}
+
+
+.head{
+    color:black;
+    transition:0.5s;
+
+}
+
+.head:hover{
+    color:grey;
+    cursor:pointer;
+}
+
+
+
+.quoteText{
+
+    font-size:1.5rem;
+
+}
+
+
+.quoteText:hover{
+    color:black;
+    cursor: pointer;
+}
+
+
+.quoteAuthor{
+    font-size:1.5rem;
+}
+
+
+.quoteAuthor:hover{
+
+    color:black;
+    cursor: pointer;
+}
+
